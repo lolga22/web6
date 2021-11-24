@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>лучший калькулятор 3000</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+body {
+    background: #333; /* Цвет фона */
+   
+   }
+  </style>
+
+<body>
+  <div id="main">
+    <div id="calculator-form">
+      <form>
+        <div id="prodcut-price" class="container">
+          <div class="label-container">
+            <label>Цена товара:</label>
+          </div>
+          <div id="result"></div>
+        </div>
+
+        <div id="product-amount" class="container">
+          <div class="label-container"><label>Количество товара:</label></div>
+          <input type="text" name="product-amount" placeholder="1" class="input-container">
+        </div>
+
+        <div class="container">
+          <div class="label-container"><label>товар:</label></div>
+          <select name="productType" class="input-container">
+            <option value="1">чипсы Lays</option>
+            <option value="2">зачёт до дефурам</option>
+            <option value="3">Toyota Supra IV (A80)</option>
+          </select>
+        </div>
+
+        <div class="container" id="radio-product-specifics">
+          <div class="label-container"><label>Опции к товару:</label></div>
+          <div class="form-check">
+            <label>пакет</label>
+            <input class="option-radios" name="radioOptions" type="radio" checked="checked" value="option1">
+          </div>
+
+          <div class="form-check">
+            <label>доставка</label>
+            <input class="option-radios" name="radioOptions" type="radio" value="option2">
+          </div>
+
+          <div class="form-check">
+            <label>чаевые</label>
+            <input class="option-radios" name="radioOptions" type="radio" value="option3">
+          </div>
+        </div>
+
+        <div class="container" id="checkbox-product-specifics">
+          <div class="label-container"><label>Опции к товару::</label></div>
+          <div class="form-check">
+            <label>пакет</label>
+            <input class="option-checkboxes" name="checkOptionsA" type="checkbox" checked="checked" value="option1">
+          </div>
+
+          <div class="form-check">
+            <label>доставка</label>
+            <input class="option-checkboxes" name="checkOptionsB" type="checkbox" value="option2">
+          </div>
+
+          <div class="form-check">
+            <label>чаевые</label>
+            <input class="option-checkboxes" name="checkOptionsC" type="checkbox" value="option3">
+          </div>
+        </div>
+
+        <div>
+          <input type="button" value="посчитать" id="calculate-button" onclick="">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
